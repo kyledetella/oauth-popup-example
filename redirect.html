@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title></title>
+</head>
+<body>
+  <script>
+    const msg = {code: location.search}
+    window.opener.postMessage(msg, location.origin)
+  </script>
+</body>
+</html>
